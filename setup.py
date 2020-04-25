@@ -14,7 +14,7 @@ setup(
         'Django>=2.0',
         'django-parler>=1.9',
         'graphene>=2.1',
-        'django-graphene>=2.1.0',
+        'graphene-django>=2.1.0',
         'graphene-django-optimizer>=0.4.0',
     ],
     python_requires='>=3.5',
