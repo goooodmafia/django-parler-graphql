@@ -1,8 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_package
 
 
 setup(
     name='django-parler-graphql',
+    packages=find_package('django_parler_graphql'),
     version='1.0.0',
     description='Django-parler-graphql is an app that allows querying of django-parler\'s translatable fields with '
                 'Django GraphQL (graphene).',
